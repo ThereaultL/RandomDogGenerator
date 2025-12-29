@@ -1,0 +1,50 @@
+* {
+  background-color: rgb(196, 203, 209);
+  margin: 7px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title, .description, .center-to-page {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+.center-to-page {
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 8px;
+  background-color: rgb(67, 71, 77);
+  color: aliceblue;
+}
+
+.dog-img {
+  width: 450px;
+  height: 450px;
+}
